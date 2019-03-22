@@ -5,9 +5,12 @@ Aaron's Test Flutter Project.
 # building and running notes
 * needed to run `flutter doctor` and go thru checklist of installs + brew installs
 * had to generate flutter project then open the xcworkspace in xcode and select provisioning profile
-* had to make sure to create a unique bundle identifier
+* for android, had to open android studio and run SDK manager downloads
+* had to make sure to create a unique bundle identifier (com.example.uniqueprojectname)
 * used some of the workaround steps here
  https://github.com/flutter/flutter/issues/26123
+
+ * key features -- had to open xcode/android studio once each to setup, but afterwards can develop and debug completely from VSCode (or Android Studio)
 
 ## Getting Started
 
